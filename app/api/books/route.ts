@@ -10,7 +10,7 @@ export interface Book {
 }
 
 // In-memory books data (replace with a database for production)
-let books: Book[] = [
+const books: Book[] = [
   { id: 1, title: "1984", author: "George Orwell", genre: "Dystopian" },
   { id: 2, title: "To Kill a Mockingbird", author: "Harper Lee", genre: "Fiction" },
   { id: 3, title: "The Great Gatsby", author: "F. Scott Fitzgerald", genre: "Classic" },
